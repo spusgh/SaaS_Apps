@@ -7,7 +7,8 @@
     xmlns:pages="clr-namespace:FinTech_MauiApp.Pages"
     Shell.FlyoutBehavior="Flyout"
     Title="FinTech_MauiApp">
-
+  
+  
     <ShellContent
         Title="Dashboard"
         Icon="{StaticResource IconDashboard}"
