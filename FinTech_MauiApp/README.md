@@ -27,27 +27,7 @@ Access to a wide variety of libraries to handle common tasks, from UI components
 3) Develop and Test: Use the integrated tools in Visual Studio to develop your app, test on different platforms using simulators or real devices2.
 
 # High Level Diagram
-Here's a high-level visual representation of a .NET MAUI app:
-
-
-                +---------------------+
-                |      .NET MAUI      |
-                +----------+----------+
-                           |
-     +---------------------+---------------------+
-     |                     |                     |
-+----v----+             +---v-----+             +----v----+
-|  Android  |           |  iOS       |           | Windows    |
-+-----------+           +-----------+           +-----------+
-|           |           |           |           |           |
-|  Native   |           |  Native   |           |  Native   |
-|  APIs     |           |  APIs     |           |  APIs     |
-|           |           |           |           |           |
-+-----------+           +-----------+           +-----------+
-| HTML/CSS  |           | HTML/CSS  |           | HTML/CSS  |
-| JavaScript|           | JavaScript|           | JavaScript|
-+-----------+           +-----------+           +-----------+
-
+Here's a high-level of a .NET MAUI app:
 
 Each target platform (Android, iOS, Windows, etc.) leverages the native APIs provided by the platform while sharing the same codebase:
 
