@@ -1,7 +1,9 @@
 
 ======================== No-Code, Low-Code, and Vibe Coding ========================
-## Comparison of No-Code, Low-Code, and Vibe Coding, highlighting their key features and differences:
+## Comparison of No-Code, Low-Code, and Vibe Coding, 
+highlighting their key features and differences:
 | Feature | No-Code | Low-Code | Vibe Coding | 
+| :---:   | :---: | :---: | :---: |
 | Target Users | Non-developers | Business users & developers | Developers & AI-assisted coders | 
 | Coding Required | None | Minimal | AI-generated, refined by developers | 
 | Development Speed | Fast | Moderate | Rapid, AI-driven | 
