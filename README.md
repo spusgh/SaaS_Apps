@@ -18,7 +18,7 @@ Challenges:
 - Limited control – AI-generated code may contain errors or inefficiencies.
 - Security risks – AI might introduce vulnerabilities if not carefully reviewed.
 
-Tools:
+Tools:  
 Vibe coding tools are revolutionizing software development by allowing developers to write code using natural language prompts, making coding more intuitive and accessible. Here are some of the top vibe coding tools in 2025:
 - Cursor – A leading AI-powered coding assistant that enhances productivity.
 - Replit – A cloud-based IDE with AI pair programming capabilities.
@@ -31,7 +31,7 @@ Vibe coding tools are revolutionizing software development by allowing developer
 These tools are making coding more efficient, reducing setup time, and enabling developers to focus on creativity rather than syntax.
 
 ======================== Vibe Coding Best Practices ========================
-## Vibe Coding - Best Practices
+### Vibe Coding - Best Practices
 
 Vibe coding is all about efficiency, creativity, and leveraging AI tools to streamline software development. Here are some best practices to help you master vibe coding:
 1. Start with Clear Prompts
