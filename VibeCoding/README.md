@@ -9,5 +9,3 @@ Classification:
 
 202504 - MERN.AI sits at the intersection of Low-Code and Vibe Coding.
 </details>
-
-
