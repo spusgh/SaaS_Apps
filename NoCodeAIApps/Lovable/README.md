@@ -169,7 +169,7 @@ interface CartContextType {
 - <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BDProductDetails.png">**Product Detail**</a>: Detailed view of a single product with nutritional information.
 - <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BDShoppingCart.png">**Shopping Cart**</a>: Displays selected items with options to adjust quantities and special instructions.
 - **Checkout**: Multi-step form for user information, payment, and scheduling.
-- **About Us**: Information about the bakery's history and mission.
+- <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BDAbout.png">**About Us**</a>: Information about the bakery's history and mission.
 - **Contact Us**: Contact form for inquiries and feedback.
 - **Not Found**: 404 error page for invalid routes.
 - **Admin Dashboard**: (Future enhancement) for managing products and orders.
