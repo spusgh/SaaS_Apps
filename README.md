@@ -19,7 +19,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 | Complexity Handling | Simple apps | Moderate complexity | AI-assisted logic | Handles complex workflows | 
 | Security & Control | Limited | Moderate | AI-assisted security | Strong security measures | 
 | Best Use Cases | Simple apps, automation | Business applications, integrations | AI-assisted coding, rapid development | Large-scale engineering projects | 
-| Best Tools | Bubble, Zapier, Wix | Mendix, OutSystems, Appian | GitHub Copilot, Claude Code, Cursor | GitHub Copilot X, Claude Code, Replit Agent | 
+| Best Tools | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable</a>, Bubble, Zapier, Wix | Mendix, OutSystems, Appian | GitHub Copilot, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Cursor | GitHub Copilot X, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Replit Agent | 
 </details>
 
 <details><summary>Agentic Coding</summary>
@@ -32,6 +32,13 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
  
  ### GitHub Copilot 
 </details>
+
+<details><summary>No-Code AI Apps</summary>
+
+ ### No-Code AI SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable - Bakery Delights</a>
+</details>
+
 
 <details><summary>.NET MAUI Framework</summary>
  
