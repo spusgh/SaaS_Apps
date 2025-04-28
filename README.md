@@ -25,7 +25,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>Agentic Coding</summary>
 
  ### Agentic Coding SaaS
- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_MauiApp">Investment App</a>
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet - Investment App</a>
 </details>
 
 <details><summary> Vibe Coding </summary>
