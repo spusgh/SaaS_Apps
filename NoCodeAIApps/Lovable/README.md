@@ -7,7 +7,7 @@ A React-based e-commerce platform built with Vite, TypeScript, and Tailwind CSS,
 - **Framework**: React 18.3.1 with TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
-- **Database**: <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BDSupabaseDB.png"Supabase</a>, Static JSON data
+- **Database**: <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BDSupabaseDB.png">Supabase</a>, Static JSON data
 - **UI Components**: Shadcn/ui
 - **Routing**: React Router DOM 6.26.2
 - **State Management**: React Context + TanStack Query 5.56.2
