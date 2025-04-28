@@ -19,7 +19,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 | Complexity Handling | Simple apps | Moderate complexity | AI-assisted logic | Handles complex workflows | 
 | Security & Control | Limited | Moderate | AI-assisted security | Strong security measures | 
 | Best Use Cases | Simple apps, automation | Business applications, integrations | AI-assisted coding, rapid development | Large-scale engineering projects | 
-| Best Tools | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable</a>, Bubble, Zapier, Wix | Mendix, OutSystems, Appian | GitHub Copilot, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Cursor | GitHub Copilot X, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Replit Agent | 
+| Best Tools | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable</a>, Bubble, Zapier, Wix | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/Microsoft%20Power%20Platform">MS Power Platform</a>, Mendix, OutSystems, Appian | GitHub Copilot, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Cursor | GitHub Copilot X, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Replit Agent | 
 </details>
 
 <details><summary>Agentic Coding</summary>
@@ -31,6 +31,12 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary> Vibe Coding </summary>
  
  ### GitHub Copilot 
+</details>
+
+<details><summary>Low-Code AI Apps</summary>
+
+ ### Low-Code AI SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/Microsoft%20Power%20Platform">MS Power Platform</a>
 </details>
 
 <details><summary>No-Code AI Apps</summary>
