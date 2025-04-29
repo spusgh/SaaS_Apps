@@ -1,5 +1,7 @@
 ﻿# Bakery E-commerce Technical Documentation
 
+![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BakeryDelights.gif)
+
 ## Project Overview
 A React-based e-commerce platform built with Vite, TypeScript, and Tailwind CSS, designed for a bakery business. The application allows customers to browse products, place orders, and schedule pickups/deliveries.
 
