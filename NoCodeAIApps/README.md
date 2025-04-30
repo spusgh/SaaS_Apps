@@ -1,7 +1,7 @@
 
  ### No-Code AI Apps
 
-#### Lovable">Lovable - Giving Games Unite
+#### Giving Games Unite
 
 ![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/GivingGamesUnite.gif)
 
