@@ -43,7 +43,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 
  ### No-Code AI SaaS
  #### Giving Games Unite
- <a href="https://github.com/spusgh/giving-games-unite-charity">Lovable - Giving Games Unite</a>
+ <a href="https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/GivingGamesUnite.gif">Lovable - Giving Games Unite</a>
 
 #### Bakery Delights
  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable - Bakery Delights</a>
