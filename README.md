@@ -42,9 +42,12 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>No-Code AI Apps</summary>
 
  ### No-Code AI SaaS
+ #### Giving Games Unite
+![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/GivingGamesUnite.gif)
+
+#### Bakery Delights
  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable - Bakery Delights</a>
 </details>
-
 
 <details><summary>.NET MAUI Framework</summary>
  
