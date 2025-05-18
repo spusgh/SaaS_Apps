@@ -13,5 +13,5 @@
 .NET Aspire simplifies the local development experience by handling service discovery, environment variables, and container configurations, ensuring a consistent bootstrapping process across different machines
 
 ### Apps
-- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">Aspire Mortgage - .NET Aspire - Claude - GitHub Copilot</a>
- ![alt text](https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire/Aspire%20Mortgage%20-%20.NET%20Aspire%20-%20Claude%20-%20GitHub%20Copilot.gif?raw=true)
+-   <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">Aspire Mortgage - .NET Aspire - Claude - GitHub Copilot</a><br/>
+ ![alt text](https://github.com/spusgh/SaaS_Apps/blob/main/FinTech_.NETAspire/Aspire%20Mortgage%20-%20.NET%20Aspire%20-%20Claude%20-%20GitHub%20Copilot.gif?raw=true)
