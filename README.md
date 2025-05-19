@@ -48,7 +48,9 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>No-Code AI Apps</summary>
 
  ### No-Code AI SaaS
- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable - Bakery Delights</a>
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable/BakeryDelights">Lovable - Bakery Delights</a> <br/>
+  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable/TeleHealth">Lovable - TeleHealth</a> <br/>
+   <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable/Charity">Lovable - Charity App</a>
 </details>
 
 
