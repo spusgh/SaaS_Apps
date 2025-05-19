@@ -13,7 +13,7 @@
 <br/>
 <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable/BakeryDelights">Lovable - Bakery Delights</a>
 
-![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BakeryDelights.gif)
+![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BakeryDelights/BakeryDelights.gif)
 
 
 </details>
