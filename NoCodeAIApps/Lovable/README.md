@@ -15,4 +15,5 @@
 
 ![image](https://github.com/spusgh/SaaS_Apps/blob/main/NoCodeAIApps/Lovable/BakeryDelights.gif)
 
+
 </details>
