@@ -22,6 +22,19 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 | Best Tools | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable">Lovable</a>, Bubble, Zapier, Wix | <a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/Microsoft%20Power%20Platform">MS Power Platform</a>, Mendix, OutSystems, Appian | GitHub Copilot, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Cursor | GitHub Copilot X, <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude Sonnet</a>, Replit Agent | 
 </details>
 
+<details><summary>.NET Aspire Framework</summary>
+ 
+ ### .NET Aspire Framework SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">Aspire Mortgage - .NET Aspire App</a>
+</details>
+
+<details><summary>.NET MAUI Framework</summary>
+ 
+ ### .NET MAUI SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_MauiApp">Fin Tech MauiApp</a>
+</details>
+
+
 <details><summary>Agentic Coding</summary>
 
  ### Agentic Coding SaaS
@@ -30,10 +43,6 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">Aspire Mortgage - .NET Aspire App</a>
 </details>
 
-<details><summary> Vibe Coding </summary>
- 
- ### GitHub Copilot 
-</details>
 
 <details><summary>Low-Code AI Apps</summary>
 
@@ -53,15 +62,15 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
    <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NoCodeAIApps/Lovable/Charity">Lovable - Charity App</a>
 </details>
 
+<details><summary>Nodejs Apps</summary>
 
-<details><summary>.NET MAUI Framework</summary>
- 
- ### .NET MAUI SaaS
- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_MauiApp">Fin Tech MauiApp</a>
+ ### Node.js SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - </a> <br/>
 </details>
 
-<details><summary>.NET Aspire Framework</summary>
+
+<details><summary> Vibe Coding </summary>
  
- ### .NET Aspire Framework SaaS
- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">Aspire Mortgage - .NET Aspire App</a>
+ ### GitHub Copilot 
 </details>
+
