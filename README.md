@@ -46,7 +46,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>LangChain Apps</summary>
 
  ### LangChain SaaS
-<a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">LangChain - SecureFlowAI: Security Records Management</a> <br/>
+<a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">LangChain - SecureFlowAI: Security Records Management</a> <br/>
 </details>
 
 <details><summary>Low-Code AI Apps</summary>

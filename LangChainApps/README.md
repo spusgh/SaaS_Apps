@@ -5,7 +5,7 @@ LangChain is a modular framework for building applications powered by large lang
 
 ---
 ## POC
-<a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">LangChain - SecureFlowAI: Security Records Management</a> <br/>
+<a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">LangChain - SecureFlowAI: Security Records Management</a> <br/>
 
 ## 📦 Core Packages
 
