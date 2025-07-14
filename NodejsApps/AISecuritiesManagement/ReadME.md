@@ -1,6 +1,6 @@
 ﻿
-# Multi-Agent AI Securities Management PWA
-A comprehensive Progressive Web Application (PWA) for managing financial securities records with integrated AI agents for analytics, validation, and recommendations.
+# Multi-Agent Securities Management PWA
+A comprehensive Progressive Web Application (PWA) for managing financial securities records with integrated agents for analytics, validation, and recommendations.
 
 ![image](https://github.com/spusgh/SaaS_Apps/blob/main/NodejsApps/AISecuritiesManagement/AISecuritiesManagement.gif)
 
