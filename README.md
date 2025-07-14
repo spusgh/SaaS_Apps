@@ -65,7 +65,7 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>Nodejs Apps</summary>
 
  ### Node.js SaaS
- <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - </a> <br/>
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - Multi-Agent AI Securities Management PWA </a> <br/>
 </details>
 
 

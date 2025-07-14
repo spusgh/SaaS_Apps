@@ -4,6 +4,9 @@
 Node.js is a powerful, open-source runtime environment that allows developers to run JavaScript on the server side. Built on Chrome's V8 JavaScript engine, Node.js is designed for building scalable and high-performance applications, especially those that are I/O-intensive.
 
 ---
+## POC
+<a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - Multi-Agent AI Securities Management PWA </a> <br/>
+
 
 ## 🚀 Key Features
 
