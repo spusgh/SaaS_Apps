@@ -259,15 +259,6 @@ cargo tarpaulin --out Html
 - **Regulatory Compliance**: SOX, GDPR, CCPA ready
 
 
-### Development Setup
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Add tests for new functionality
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
-
 ### Code Style
 - **R**: Follow [tidyverse style guide](https://style.tidyverse.org/)
 - **Rust**: Use `cargo fmt` and `cargo clippy`
