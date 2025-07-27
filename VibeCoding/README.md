@@ -1,6 +1,9 @@
 
 # Vibe Coding
 
+## Angular
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/AngularRustLoanManagement"> Angular PostgreSQL Rust - Loan Search Application</a>
+
 ## Rust
 <li>Type: Systems programming language
 <li>Vibe: Hardcore performance coding. Think memory safety, concurrency, and power-user engineering.

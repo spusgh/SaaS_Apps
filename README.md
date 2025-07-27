@@ -38,6 +38,10 @@
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - Multi-Agent AI Securities Management PWA </a> <br/>
 
 ### Vibe Coding
+#### Angular 
+ 
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/AngularRustLoanManagement"> Angular PostgreSQL Rust - Loan Search Application</a></li>
+
  #### Rust Vibe Coding SaaS
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/MLRustLoanDataApp">Rust AI Loan Portfolio Analyzer</a></li>
 
