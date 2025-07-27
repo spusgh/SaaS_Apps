@@ -12,6 +12,7 @@
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">.NET Aspire App - Aspire Mortgage</a></li>
 
 ### LangChain Apps
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecuritiesAI">LangChain - SecuritiesAI: Managing Securities Records</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">LangChain - SecureFlowAI: Security Records Management</a></li>
 
@@ -22,7 +23,7 @@
 	Some aspects, like API integrations and cloud deployment. Aspire simplifies service orchestration and cloud-native development, reducing manual configuration but still requiring development effort.
 
 ### ML : Python Scikit-Learn Rust
- <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">Loan Record Analysis</br/>
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">Loan Record Analysis</a></br/>
 
 
 ### No-Code AI Apps
