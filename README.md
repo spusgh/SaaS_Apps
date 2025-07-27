@@ -71,12 +71,17 @@ Here’s a detailed comparison of No-Code, Low-Code, Vibe Coding, and Agentic Co
 <details><summary>Nodejs Apps</summary>
 
  ### Node.js SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/GraphQLLoanRecordSearchAPI">Node.js - GraphQL Loan Record Search API<br/>
  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - Multi-Agent AI Securities Management PWA </a> <br/>
+
 </details>
 
 
 <details><summary> Vibe Coding </summary>
  
- ### GitHub Copilot 
+ ### Rust Vibe Coding SaaS
+ <a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/MLRustLoanDataApp">Rust AI Loan Portfolio Analyzer/a><br/>
+
+
 </details>
 
