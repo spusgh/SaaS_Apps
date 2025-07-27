@@ -1,4 +1,4 @@
-<details><summary>Agentic Coding</summary>
+#Agentic Coding
 
  ### Agentic Coding SaaS
  <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Investment App - Claude Sonnet</a><br/>
