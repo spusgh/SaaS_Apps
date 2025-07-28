@@ -8,7 +8,7 @@ PS C:\Users\Shail> Get-Process -Name ollama | Select-Object -Property Id
 16272
 
 
-PS C:\Users\Shail> Stop-Process -Id 16272
+PS C:\yourserver\xxxx> Stop-Process -Id 16272
 
 
 #/
