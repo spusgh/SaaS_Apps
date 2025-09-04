@@ -23,26 +23,26 @@ The Crypto Analytics Dashboard provides institutional-grade insights for crypto 
 <a href=""><img src="./CADOverview.png" /></a>
 
 **Primary KPIs at a glance**
-- Total MEV extracted (24h): Live profit tracking
+- Total MEV extracted (24h): Live profit tracking<br/>
 	<a href=""><img src="./CADMEVExtraction.png" /></a>
 
-- Total liquidity across all pools
+- Total liquidity across all pools <br/>
 	<a href=""><img src="./CADLiquidityHealth.png" /></a>
 
-- Active validator count and participation rates
+- Active validator count and participation rates<br/>
 	<a href=""><img src="./CADValidatorPerformance.png" /></a>
 
-- Real-time network utilization metrics
+- Real-time network utilization metrics<br/>
 	<a href=""><img src="./CADNetworkHealth.png" /></a>
 
 
 **Visualizations:**
-- MEV profit trend (Area Chart)
+- MEV profit trend (Area Chart)<br/>
 	<a href=""><img src="./CADOverviewMEVProfitTrends.png" /></a>
 
-- Strategy distribution (Pie Chart) 
+- Strategy distribution (Pie Chart) <br/>
 
-- Network health metrics (Multi-line Chart)
+- Network health metrics (Multi-line Chart)<br/>
 	<a href=""><img src="./CADOverviewNetworkHealthMetrics.png" /></a>
 
 
@@ -55,13 +55,13 @@ The Crypto Analytics Dashboard provides institutional-grade insights for crypto 
 	
 
 **Featured Charts:**
-- **Profit Trend Analysis** - Hourly MEV extraction with gas cost overlay
+- **Profit Trend Analysis** - Hourly MEV extraction with gas cost overlay<br/>
 	<a href=""><img src="./CADMEVExtractionProfitvsGasCost.png" /></a>
 
-- **Strategy Performance Table** - Arbitrage, Sandwich, Liquidation, Frontrun metrics
+- **Strategy Performance Table** - Arbitrage, Sandwich, Liquidation, Frontrun metrics<br/>
 	<a href=""><img src="./CADMEVExtractionStrategicPerformance.png" /></a>
 
-- **Bot Success Rate Distribution** - Performance histogram by bot type
+- **Bot Success Rate Distribution** - Performance histogram by bot type<br/>
 
 **Key Metrics:**
 - Total Profit (24h): `1,247.83 ETH`
@@ -77,13 +77,13 @@ The Crypto Analytics Dashboard provides institutional-grade insights for crypto 
 - Cross-DEX arbitrage opportunities
 
 **Interactive Components:**
-- **Top Pools Table** - WETH/USDC, WBTC/WETH performance data
+- **Top Pools Table** - WETH/USDC, WBTC/WETH performance data<br/>
 	<a href=""><img src="./CADLiquidityHealthPools.png" /></a>
 
-- **Liquidity vs Volume Trend** - Dual-axis correlation analysis
+- **Liquidity vs Volume Trend** - Dual-axis correlation analysis<br/>
 	<a href=""><img src="./CADLiquidityHealthLVTrends.png" /></a>
 
-- **Depth Analysis Charts** - Price impact visualization
+- **Depth Analysis Charts** - Price impact visualization<br/>
 
 
 **Health Indicators:**
@@ -100,10 +100,10 @@ The Crypto Analytics Dashboard provides institutional-grade insights for crypto 
 - Performance rating distribution
 
 **Performance Visualizations:**
-- **Validator Distribution** - Performance rating breakdown (Excellent: 80.2%)
+- **Validator Distribution** - Performance rating breakdown (Excellent: 80.2%)<br/>
 	<a href=""><img src="./CADValidatorPerformanceDistribution.png" /></a>
 - 
-- **Rewards Trend** - Epoch-by-epoch reward analysis
+- **Rewards Trend** - Epoch-by-epoch reward analysis<br/>
 	<a href=""><img src="./CADValidatorPerformanceValidatorRewardsTrends.png" /></a>
 
 - - **Participation Metrics** - Network security indicators
@@ -123,13 +123,13 @@ The Crypto Analytics Dashboard provides institutional-grade insights for crypto 
 - MEV opportunity detection
 
 **Real-time Charts:**
-- **Network Utilization** - Live capacity monitoring
+- **Network Utilization** - Live capacity monitoring<br/>
 	<a href=""><img src="./CADNetworkHealthGasNetworkUtilization.png" /></a>
 - 
-- **Gas Price Trends** - Predictive pricing analysis
+- **Gas Price Trends** - Predictive pricing analysis<br/>
  	 <a href=""><img src="./CADNetworkHealthGasPriceTrends.png" /></a>
 
-- - **Mempool Activity** - Transaction queue visualization
+- - **Mempool Activity** - Transaction queue visualization<br/>
 	  <a href=""><img src="./CADNetworkHealth-MempoolActivity.png" /></a>
 	
 **Live Metrics:**
