@@ -5,8 +5,9 @@ Node.js is a powerful, open-source runtime environment that allows developers to
 
 ---
 ## POC
-<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js - Multi-Agent Securities Management PWA </a> <br/>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/CAD_CryptoAnalyticsDashboard">Node.js : Crypto Analytics Dashboard</a> 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/GraphQLLoanRecordSearchAPI">Node.js : GraphQL Loan Record Search API</a> <br/>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/NodejsApps/AISecuritiesManagement">Node.js : Multi-Agent Securities Management PWA </a> <br/>
 
 
 ## 🚀 Key Features
