@@ -75,23 +75,23 @@ The Bioinformatics Analysis Platform is a comprehensive MVP designed to help res
 
 ## 🎬 Demo
 - Bioinformatics Analysis Platform MVP Dashboard <br/>
-  ![Bioinformatics Analysis Platform MVP Dashboard](./Bioinformatics Analysis Platform MVP DB.png)<br/>
+  ![Bioinformatics Analysis Platform MVP Dashboard](./Bioinformatics%20Analysis%20Platform%20MVP%20DB.png)<br/>
 
 - Bioinformatics Analysis Platform MVP DB-Data Upload <br/>
-![Bioinformatics Analysis Platform MVP DB-Data Upload](./Bioinformatics Analysis Platform MVP DB-Data Upload.png)<br/>
+![Bioinformatics Analysis Platform MVP DB-Data Upload](./Bioinformatics%20Analysis%20Platform%20MVP%20DB-Data%20Upload.png)<br/>
 
 - Sequencing Analysis <br/>
-![Sequencing Analysis](./Sequencing Analysis.png)<br/>
+![Sequencing Analysis](./Sequencing%20Analysis.png)<br/>
 
 - mRNA Analysis<br/>
-![mRNA Analysis](./mRNA Analysis.png)<br/>
+![mRNA Analysis](./mRNA%20Analysis.png)<br/>
 
 - Flow Cytometry<br/>
-![Flow Cytometry](./Flow Cytometry.png)<br/>
+![Flow Cytometry](./Flow%20Cytometry.png)<br/>
 
 - Integrated Results Corelations<br/>
-![Integrated Results](./Integrated Results.png)
-![Integrated Results Corelations](./Integrated Results Corelations.png)<br/>
+![Integrated Results](./Integrated%20Results.png)
+![Integrated Results Corelations](./Integrated%20Results%20Corelations.png)<br/>
 
 
 ## 📖 Usage
