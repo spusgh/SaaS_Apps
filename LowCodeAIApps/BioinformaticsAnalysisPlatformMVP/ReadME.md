@@ -74,24 +74,24 @@ The Bioinformatics Analysis Platform is a comprehensive MVP designed to help res
 - Compatible with GraphPad Prism and SPSS
 
 ## 🎬 Demo
-<li>Bioinformatics Analysis Platform MVP Dash Board <br/>
-(./Bioinformatics Analysis Platform MVP DB.png)<br/>
+- Bioinformatics Analysis Platform MVP Dashboard <br/>
+  ![Bioinformatics Analysis Platform MVP Dashboard](./Bioinformatics Analysis Platform MVP DB.png)<br/>
 
-<li>Bioinformatics Analysis Platform MVP DB-Data Upload <br/>
-(./Bioinformatics Analysis Platform MVP DB-Data Upload.png)<br/>
+- Bioinformatics Analysis Platform MVP DB-Data Upload <br/>
+![Bioinformatics Analysis Platform MVP DB-Data Upload](./Bioinformatics Analysis Platform MVP DB-Data Upload.png)<br/>
 
-<li>Sequencing Analysis <br/>
-(./Sequencing Analysis.png)<br/>
+- Sequencing Analysis <br/>
+![Sequencing Analysis](./Sequencing Analysis.png)<br/>
 
-<li>mRNA Analysis<br/>
-(./mRNA Analysis.png)<br/>
+- mRNA Analysis<br/>
+![mRNA Analysis](./mRNA Analysis.png)<br/>
 
-<li>Flow Cytometry<br/>
-(./Flow Cytometry.png)<br/>
+- Flow Cytometry<br/>
+![Flow Cytometry](./Flow Cytometry.png)<br/>
 
-<li>Integrated Results Corelations<br/>
-(./Integrated Results.png)
-(./Integrated Results Corelations.png)<br/>
+- Integrated Results Corelations<br/>
+![Integrated Results](./Integrated Results.png)
+![Integrated Results Corelations](./Integrated Results Corelations.png)<br/>
 
 
 ## 📖 Usage
