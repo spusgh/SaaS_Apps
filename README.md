@@ -18,9 +18,10 @@
 
 
 ### Low-Code AI Apps
-<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/Microsoft%20Power%20Platform">MS Power Platform</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">.NET Aspire - Claude - GitHub Copilot : Aspire Mortgage</a></li>
 	Some aspects, like API integrations and cloud deployment. Aspire simplifies service orchestration and cloud-native development, reducing manual configuration but still requiring development effort.
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/BioinformaticsAnalysisPlatformMVP">JavaScripts: Nodejs : Bioinformatics Analysis Platform MVP </a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LowCodeAIApps/Microsoft%20Power%20Platform">MS Power Platform</a></li>
 
 ### ML : Python Scikit-Learn Rust
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">Loan Record Analysis</a></br/>
