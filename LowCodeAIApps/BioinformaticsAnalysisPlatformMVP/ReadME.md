@@ -22,15 +22,10 @@ The Bioinformatics Analysis Platform is a comprehensive MVP designed to help res
 
 - [Features](#features)
 - [Demo](#demo)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data Format Requirements](#data-format-requirements)
 - [Analysis Pipeline](#analysis-pipeline)
 - [Tools & Technologies](#tools--technologies)
-- [Sample Data](#sample-data)
-- [Contributing](#contributing)
-- [License](#license)
-- [Citation](#citation)
 
 ## ✨ Features
 
