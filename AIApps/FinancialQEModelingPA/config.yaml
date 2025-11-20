@@ -1,0 +1,484 @@
+# =====================================================
+# XYZ Financials - Configuration File
+# =====================================================
+
+# Application Settings
+application:
+  name: "XYZ Financials Analytics Platform"
+  version: "1.0.0"
+  environment: "development"  # development, staging, production
+  debug: true
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# Database Configuration
+database:
+  sql_server:
+    server: "localhost"  # or your SQL Server instance name
+    database: "XYZFinancials"
+    port: 1433
+    driver: "ODBC Driver 17 for SQL Server"
+    
+    # Authentication Options
+    auth:
+      type: "windows"  # windows or sql_server
+      username: null  # Only for SQL Server auth
+      password: null  # Only for SQL Server auth
+      trusted_connection: true
+    
+    # Connection Pool Settings
+    pool:
+      size: 5
+      max_overflow: 10
+      timeout: 30
+      recycle: 3600
+    
+    # Query Settings
+    query:
+      timeout: 300  # seconds
+      fetch_size: 1000
+
+# Data Generation Settings
+data_generation:
+  synthetic_data:
+    enabled: true
+    random_seed: 42  # For reproducibility
+    
+    # Entity counts
+    counts:
+      customers: 500
+      applications: 800
+      loans: 600
+      securities: 100
+      loan_officers: 25
+      
+    # Date ranges
+    date_ranges:
+      start_date: "2020-01-01"
+      end_date: "2024-12-31"
+      market_data_days: 730
+      
+    # Distribution parameters
+    distributions:
+      credit_score:
+        mean: 700
+        std: 80
+        min: 500
+        max: 850
+      
+      annual_income:
+        log_mean: 11
+        log_std: 0.5
+        min: 30000
+        max: 500000
+      
+      loan_amount:
+        min: 100000
+        max: 500000
+        
+      interest_rate:
+        base: 6.5
+        spread_min: -0.5
+        spread_max: 1.5
+
+# Machine Learning Model Settings
+models:
+  default_prediction:
+    algorithm: "random_forest"
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 20
+    min_samples_leaf: 10
+    random_state: 42
+    test_size: 0.2
+    
+    features:
+      - "CreditScore"
+      - "DTI"
+      - "LTV"
+      - "AnnualIncome"
+      - "YearsEmployed"
+      - "LoanAmount"
+      - "InterestRate"
+    
+    thresholds:
+      high_risk: 0.30
+      medium_risk: 0.15
+  
+  rate_forecast:
+    algorithm: "gradient_boosting"
+    n_estimators: 100
+    max_depth: 5
+    learning_rate: 0.1
+    random_state: 42
+    test_size: 0.2
+    
+    features:
+      - "FedFundsRate"
+      - "SOFR"
+      - "LIBOR3M"
+      - "Treasury10Y_lag1"
+      - "Treasury10Y_lag7"
+      - "Treasury10Y_lag30"
+  
+  customer_churn:
+    algorithm: "logistic_regression"
+    max_iter: 1000
+    random_state: 42
+    test_size: 0.2
+    
+    features:
+      - "MonthsSinceOrigination"
+      - "PaymentDelayRate"
+      - "CreditScoreChange"
+      - "LoanUtilization"
+  
+  # Model persistence
+  persistence:
+    models_dir: "models"
+    save_format: "pickle"  # pickle or joblib
+    version_control: true
+
+# Advanced Analytics Settings
+analytics:
+  monte_carlo:
+    num_simulations: 10000
+    time_horizon: 360  # months
+    default_correlation: 0.15
+    confidence_levels:
+      - 0.95
+      - 0.99
+    loss_given_default: 0.40
+  
+  stress_testing:
+    scenarios:
+      baseline:
+        unemployment_change: 0.0
+        gdp_change: 0.0
+        house_price_change: 0.0
+        rate_change: 0.0
+      
+      mild_recession:
+        unemployment_change: 2.0
+        gdp_change: -2.0
+        house_price_change: -5.0
+        rate_change: 0.5
+      
+      severe_recession:
+        unemployment_change: 5.0
+        gdp_change: -5.0
+        house_price_change: -15.0
+        rate_change: -1.0
+      
+      housing_crisis:
+        unemployment_change: 3.0
+        gdp_change: -3.0
+        house_price_change: -30.0
+        rate_change: -0.5
+      
+      rate_spike:
+        unemployment_change: 1.0
+        gdp_change: -1.0
+        house_price_change: -8.0
+        rate_change: 3.0
+  
+  portfolio_optimization:
+    risk_free_rate: 0.04
+    min_product_allocation: 0.05
+    max_product_allocation: 0.40
+    optimization_method: "SLSQP"
+  
+  liquidity:
+    projection_months: 36
+    prepayment_rate: 0.06  # CPR
+    default_rate: 0.0005  # Monthly
+    psa_baseline: 100
+
+# Risk Monitoring Settings
+monitoring:
+  enabled: true
+  check_interval: 3600  # seconds (hourly)
+  
+  # Risk thresholds
+  thresholds:
+    delinquency_rate:
+      warning: 0.05
+      critical: 0.10
+    
+    default_rate:
+      warning: 0.02
+      critical: 0.05
+    
+    portfolio_concentration:
+      warning: 0.25
+      critical: 0.40
+    
+    avg_ltv:
+      warning: 85.0
+      critical: 90.0
+    
+    avg_dti:
+      warning: 40.0
+      critical: 45.0
+    
+    liquidity_coverage:
+      warning: 1.2
+      critical: 1.0
+    
+    capital_adequacy:
+      warning: 0.10
+      critical: 0.08
+  
+  # Anomaly detection
+  anomaly_detection:
+    enabled: true
+    sensitivity: 2.5  # Z-score threshold
+    min_historical_points: 10
+  
+  # Alerts
+  alerts:
+    enabled: true
+    channels:
+      - email
+      - console
+    
+    email:
+      smtp_server: "smtp.gmail.com"
+      smtp_port: 587
+      sender: "alerts@xyzfinancials.com"
+      recipients:
+        - "risk@xyzfinancials.com"
+        - "ops@xyzfinancials.com"
+      
+      critical_recipients:
+        - "cro@xyzfinancials.com"
+        - "ceo@xyzfinancials.com"
+
+# Reporting Settings
+reporting:
+  output_dir: "reports"
+  
+  formats:
+    - excel
+    - json
+    - csv
+    - html
+  
+  schedules:
+    executive_summary:
+      frequency: "daily"
+      time: "08:00"
+      recipients:
+        - "executives@xyzfinancials.com"
+    
+    risk_report:
+      frequency: "weekly"
+      day: "monday"
+      time: "09:00"
+      recipients:
+        - "risk@xyzfinancials.com"
+    
+    regulatory_report:
+      frequency: "quarterly"
+      recipients:
+        - "compliance@xyzfinancials.com"
+  
+  # Report customization
+  templates:
+    executive_summary:
+      include_charts: true
+      chart_types:
+        - "portfolio_overview"
+        - "risk_trends"
+        - "performance_metrics"
+    
+    loan_performance:
+      include_top_loans: 10
+      include_bottom_loans: 10
+      cohort_analysis: true
+    
+    risk_assessment:
+      include_monte_carlo: true
+      include_stress_tests: true
+      include_var: true
+
+# Dashboard Settings
+dashboard:
+  streamlit:
+    port: 8501
+    host: "localhost"
+    theme: "dark"
+    cache_ttl: 300  # seconds
+  
+  react:
+    port: 3000
+    host: "localhost"
+    api_endpoint: "http://localhost:8000"
+  
+  # Data refresh
+  refresh:
+    auto_refresh: true
+    interval: 60  # seconds
+  
+  # Visualization settings
+  charts:
+    default_height: 400
+    color_scheme: "plotly"
+    responsive: true
+
+# API Settings (if building FastAPI service)
+api:
+  enabled: false
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  
+  # CORS
+  cors:
+    enabled: true
+    origins:
+      - "http://localhost:3000"
+      - "http://localhost:8501"
+  
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    requests_per_minute: 100
+  
+  # Authentication
+  auth:
+    enabled: false
+    type: "jwt"  # jwt, oauth2, api_key
+    secret_key: "your-secret-key-here"
+    algorithm: "HS256"
+    access_token_expire_minutes: 30
+
+# File Storage Settings
+storage:
+  data_dir: "data"
+  backup_dir: "backups"
+  temp_dir: "temp"
+  
+  # Retention policies
+  retention:
+    backups_days: 90
+    temp_files_days: 7
+    logs_days: 30
+  
+  # Compression
+  compression:
+    enabled: true
+    algorithm: "gzip"
+    level: 6
+
+# Logging Configuration
+logging:
+  version: 1
+  
+  formatters:
+    default:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+      datefmt: "%Y-%m-%d %H:%M:%S"
+    
+    detailed:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s"
+  
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "INFO"
+      formatter: "default"
+      stream: "ext://sys.stdout"
+    
+    file:
+      class: "logging.handlers.RotatingFileHandler"
+      level: "DEBUG"
+      formatter: "detailed"
+      filename: "logs/xyz_financials.log"
+      maxBytes: 10485760  # 10MB
+      backupCount: 5
+    
+    error_file:
+      class: "logging.handlers.RotatingFileHandler"
+      level: "ERROR"
+      formatter: "detailed"
+      filename: "logs/errors.log"
+      maxBytes: 10485760
+      backupCount: 5
+  
+  root:
+    level: "INFO"
+    handlers:
+      - console
+      - file
+      - error_file
+
+# Performance Settings
+performance:
+  # Caching
+  cache:
+    enabled: true
+    backend: "memory"  # memory, redis, memcached
+    ttl: 3600
+  
+  # Parallel processing
+  parallel:
+    enabled: true
+    max_workers: 4
+  
+  # Query optimization
+  query_optimization:
+    use_indexes: true
+    batch_size: 1000
+    chunk_size: 10000
+
+# Security Settings
+security:
+  # Data encryption
+  encryption:
+    enabled: false
+    algorithm: "AES256"
+    key_rotation_days: 90
+  
+  # Sensitive data masking
+  data_masking:
+    enabled: true
+    mask_ssn: true
+    mask_phone: false
+    mask_email: false
+  
+  # Audit logging
+  audit:
+    enabled: true
+    log_file: "logs/audit.log"
+    log_queries: false
+    log_data_access: true
+
+# Development Settings
+development:
+  debug_sql: false
+  mock_external_services: false
+  skip_validations: false
+  
+  # Test data
+  test_data:
+    auto_generate: true
+    reset_on_startup: false
+
+# Production Settings
+production:
+  debug: false
+  ssl_enabled: true
+  cdn_enabled: false
+  
+  # Backup
+  backup:
+    enabled: true
+    frequency: "daily"
+    time: "02:00"
+    retention_days: 30
+  
+  # Monitoring
+  monitoring:
+    enabled: true
+    service: "datadog"  # datadog, prometheus, cloudwatch
+    metrics_interval: 60
