@@ -1,6 +1,5 @@
 # XYZ Financials Securities MVP
 
-
 ## Architecture Overview
 
 ```mermaid
