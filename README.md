@@ -4,7 +4,7 @@
 
 
 ### .NET MAUI Framework
- <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_MauiApp">Fin Tech MauiApp</a></li>
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/.NET/FinTech_MauiApp">Fin Tech MauiApp</a></li>
 
 
 ### Agentic Coding
