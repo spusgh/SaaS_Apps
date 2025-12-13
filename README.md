@@ -12,6 +12,7 @@
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">.NET Aspire App - Aspire Mortgage</a></li>
 
  ### <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps">🤖 AIaaS (AI-as-a-Service)</a>
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">Customer Support Bot MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinancialQEModelingPA">Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
   <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">TrailBlazer AI MVP</a></li>
 
