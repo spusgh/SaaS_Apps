@@ -94,10 +94,12 @@ TrailBlazerAI is an MVP platform that helps hunters plan their trips by combinin
 
 ### 1. Login Screen
 ![Login Screen](./src/assets/MobileLoginScreen.png)
+
 Access the platform by logging in with your credentials. New users can sign up for an account.
 
 ### 2. Landing Page
 ![Landing Page](./src/assets/LandingPage.png)
+
 Start your hunt planning journey by visiting the landing page. Click "Start Planning" to begin.
 
 ### 3. Dashboard Walkthrough

@@ -13,6 +13,7 @@
 
  ### <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps">🤖 AIaaS (AI-as-a-Service)</a>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinancialQEModelingPA">Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
+  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">TrailBlazer AI MVP</a></li>
 
 ### LangChain Apps
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
