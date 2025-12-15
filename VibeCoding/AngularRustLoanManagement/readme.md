@@ -11,9 +11,95 @@ A modern loan management system with an Angular frontend and Rust backend API, f
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
+### User Flow Diagram
+```mermaid
+graph TD
+    A[User Opens App] --> B{Authenticated?}
+    B -->|No| C[Login Screen]
+    B -->|Yes| D[Dashboard]
+    
+    C --> E{Login Method}
+    E -->|Email/Password| F[Enter Credentials]
+    E -->|OAuth| G[Google/Microsoft Sign In]
+    
+    F --> H{Valid?}
+    H -->|Yes| D
+    H -->|No| I[Show Error]
+    I --> C
+    
+    G --> J{OAuth Success?}
+    J -->|Yes| D
+    J -->|No| I
+    
+    C --> K[Forgot Password]
+    K --> L[Enter Email]
+    L --> M[Send Reset Link]
+    M --> N[Check Email]
+    N --> O[Click Reset Link]
+    O --> P[Enter New Password]
+    P --> Q[Password Updated]
+    Q --> C
+    
+    D --> R[View Summary Cards]
+    D --> S[View Recent Loans]
+    D --> T[View Notifications]
+    D --> U[Quick Actions]
+    
+    U --> V[Apply for Loan]
+    U --> W[Upload Documents]
+    U --> X[Make Payment]
+    U --> Y[Contact Officer]
+    
+    V --> Z[Loan Application Form]
+    Z --> AA[Fill Personal Info]
+    AA --> AB[Select Loan Type]
+    AB --> AC[Upload Documents]
+    AC --> AD[Review & Submit]
+    AD --> AE{Validation}
+    AE -->|Pass| AF[Application Submitted]
+    AE -->|Fail| AG[Show Errors]
+    AG --> Z
+    AF --> D
+    
+    D --> AH[Navigate to Reports]
+    AH --> AI[Select Report Type]
+    AI --> AJ[Apply Filters]
+    AJ --> AK[View Data Table/Chart]
+    AK --> AL[Export Report]
+    AL --> AM[Select Format]
+    AM --> AN[Download/Email]
+    AN --> AO[Success Notification]
+    
+    AK --> AP[Drill Down]
+    AP --> AQ[View Details]
+    AQ --> AK
+    
+    style D fill:#60A5FA
+    style C fill:#F59E0B
+    style AF fill:#10B981
+    style I fill:#EF4444
+```
+
+
+
 ## 🚀 Features
+### Login & Authentication
+- **Secure Login**: Email/password and OAuth 2.0 support
+- **Password Recovery**: Email-based password reset flow
+- **Session Management**: JWT-based authentication with refresh tokens
+- **Role-Based Access Control**: Different access levels for users
+- **Audit Logging**: Track login attempts and changes
+- **Two-Factor Authentication (2FA)**: Optional 2FA via email or authenticator apps
+
+![Desktop Login Screen](./assets/DesktopLoginScreen.png) &nbsp; ![Desktop Login Screen](./assets/DesktopFGPwd.png)&nbsp; ![Desktop Login Screen](./assets/DesktopFGPwd-ES.png) <br/>
+![Mobile Login Screen](./assets/MobileLoginScreen.png)<br/>
+
 
 ### Frontend (Angular)
+![Mobile Dashboard Walkthrough](./assets/LoanSearchApp.png) <br/><br/>
+![Dashboard Walkthrough](./assets/ReportsAnalytics.png) <br/>
+
+
 - **Advanced Search Interface**: Multi-field search with real-time filtering
 - **Responsive Design**: Mobile-first UI with modern styling
 - **Real-time Updates**: Debounced search with instant results
@@ -62,7 +148,6 @@ loans (
 | Containerization | Docker | Latest |
 
 ## 📋 Prerequisites
-
 - **Node.js** 18+ and npm
 - **Rust** 1.75+ with Cargo
 - **PostgreSQL** 15+
@@ -72,85 +157,17 @@ loans (
 ## 🚀 Quick Start
 
 ### Option 1: Docker Compose (Recommended)
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd loan-search-app
-
-# Start all services
-docker-compose up -d
-
-# Check service status
-docker-compose ps
-```
-
-The application will be available at:
-- Frontend: http://localhost:4200
-- Backend API: http://localhost:8080
-- Database: localhost:5432
-
 ### Option 2: Manual Setup
-
 #### 1. Database Setup
-```bash
-# Create PostgreSQL database
-createdb loan_db
-
-# Set environment variables
-export DATABASE_URL="postgresql://username:password@localhost:5432/loan_db"
-
-# Run migrations
-cd backend
-cargo install sqlx-cli --features postgres
-sqlx migrate run
-```
-
 #### 2. Backend Setup
-```bash
-cd backend
-
-# Install dependencies and run
-cargo build --release
-cargo run
-
-# The API will be available at http://localhost:8080
-```
-
 #### 3. Frontend Setup
-```bash
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-ng serve
-
-# The UI will be available at http://localhost:4200
-```
 
 ## 🔧 Configuration
-
 ### Environment Variables
-
 #### Backend (.env)
-```bash
-DATABASE_URL=postgresql://username:password@localhost:5432/loan_db
-BIND_ADDRESS=127.0.0.1:8080
-RUST_LOG=info
-```
-
 #### Frontend (environment.ts)
-```typescript
-export const environment = {
-  production: false,
-  apiUrl: 'http://localhost:8080'
-};
-```
 
 ## 📚 API Documentation
-
 ### Endpoints
 
 | Method | Endpoint | Description | Parameters |
@@ -160,60 +177,12 @@ export const environment = {
 | GET | `/api/loans/statistics` | Get loan statistics | None |
 | GET | `/health` | Health check | None |
 
-### Search Parameters
-
-| Parameter | Type | Description | Example |
-|-----------|------|-------------|---------|
-| `customer_name` | string | Customer name (partial match) | `John` |
-| `status` | string | Loan status | `Active` |
-| `product_type` | string | Product type | `Fixed Rate` |
-| `servicer_name` | string | Servicer name (partial match) | `ABC` |
-| `min_loan_amount` | number | Minimum loan amount | `100000` |
-| `max_loan_amount` | number | Maximum loan amount | `500000` |
-| `origination_date_from` | date | Start date | `2020-01-01` |
-| `origination_date_to` | date | End date | `2024-12-31` |
-| `page` | number | Page number | `1` |
-| `page_size` | number | Results per page | `50` |
-
-### Example Requests
-
-```bash
-# Search for active loans
-curl "http://localhost:8080/api/loans/search?status=Active&page=1&page_size=10"
-
-# Search by customer name and loan amount range
-curl "http://localhost:8080/api/loans/search?customer_name=John&min_loan_amount=200000&max_loan_amount=400000"
-
-# Get loan statistics
-curl "http://localhost:8080/api/loans/statistics"
-
-# Health check
-curl "http://localhost:8080/health"
-```
 
 ## 🧪 Testing
-
 ### Backend Tests
-```bash
-cd backend
-cargo test
-```
-
 ### Frontend Tests
-```bash
-cd frontend
-npm test
-ng e2e
-```
-
 ### Load Testing
-```bash
-# Using Apache Bench
-ab -n 1000 -c 10 http://localhost:8080/api/loans/search
 
-# Using curl for basic functionality
-curl -f http://localhost:8080/health || echo "Health check failed"
-```
 
 ## 📊 Performance Benchmarks
 
@@ -224,73 +193,6 @@ curl -f http://localhost:8080/health || echo "Health check failed"
 | Database Queries | < 10ms | With proper indexing |
 | Memory Usage | < 50MB | Rust backend |
 
-## 🔍 Database Optimization
-
-### Indexes Created
-```sql
--- Search performance indexes
-CREATE INDEX idx_loans_customer_name ON loans(customer_name);
-CREATE INDEX idx_loans_status ON loans(status);
-CREATE INDEX idx_loans_product_type ON loans(product_type);
-CREATE INDEX idx_loans_servicer_name ON loans(servicer_name);
-CREATE INDEX idx_loans_loan_amount ON loans(loan_amount);
-CREATE INDEX idx_loans_origination_date ON loans(origination_date);
-
--- Composite indexes for common searches
-CREATE INDEX idx_loans_status_product_type ON loans(status, product_type);
-CREATE INDEX idx_loans_servicer_status ON loans(servicer_name, status);
-```
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Failed**
-   ```bash
-   # Check PostgreSQL is running
-   pg_isready -h localhost -p 5432
-   
-   # Verify connection string
-   echo $DATABASE_URL
-   ```
-
-2. **Angular Build Errors**
-   ```bash
-   # Clear node modules and reinstall
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
-
-3. **Rust Compilation Issues**
-   ```bash
-   # Update Rust
-   rustup update
-   
-   # Clean build
-   cargo clean && cargo build
-   ```
-
-4. **CORS Issues**
-   ```bash
-   # Check backend CORS configuration
-   # Ensure frontend URL is allowed in actix-cors setup
-   ```
-
-## 📈 Monitoring
-
-### Health Checks
-- Backend: `GET /health`
-- Database: Built-in connection pooling with health checks
-- Frontend: Angular's built-in error handling
-
-### Logging
-```bash
-# Backend logs
-RUST_LOG=debug cargo run
-
-# Docker logs
-docker-compose logs -f loan-api
-```
 
 ## 🔐 Security Considerations
 
@@ -303,24 +205,6 @@ docker-compose logs -f loan-api
 ## 🚀 Deployment
 
 ### Production Deployment
-
-1. **Build frontend for production:**
-   ```bash
-   cd frontend
-   ng build --prod
-   ```
-
-2. **Build backend for production:**
-   ```bash
-   cd backend
-   cargo build --release
-   ```
-
-3. **Docker deployment:**
-   ```bash
-   docker-compose -f docker-compose.prod.yml up -d
-   ```
-
 ### Environment-specific Configuration
 
 - **Development**: `docker-compose.yml`
