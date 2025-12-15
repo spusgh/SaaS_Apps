@@ -7,9 +7,11 @@ This directory contains modular AI-native applications designed for intelligent 
 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">Customer Support Bot MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinancialQEModelingPA">Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
+ <li><a href="https://github.com/spusgh/PaaS-Scripts/tree/main/GenAIRAGMVP">GenAI RAG MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">TrailBlazer AI MVP</a></li>
+ 
 
-
+ 
 
 ## 🧠 Capabilities
 
