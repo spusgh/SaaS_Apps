@@ -6,6 +6,8 @@
 ### .NET MAUI Framework
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/.NET/FinTech_MauiApp">Fin Tech MauiApp</a></li>
 
+### .NET WinForms - WindowsAI Disable MVP
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/.NET/WindowsAIDisable">WindowsAI Disable</a></li>
 
 ### Agentic Coding
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">Claude - Investment App</a></li>
