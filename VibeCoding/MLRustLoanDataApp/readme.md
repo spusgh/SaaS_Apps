@@ -22,96 +22,14 @@ A high-performance, AI-powered loan portfolio analysis and search application bu
 - PostgreSQL database
 - Git
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/rust-ai-loan-analyzer.git
-   cd rust-ai-loan-analyzer
-   ```
-
-2. **Set up the database**
-   ```bash
-   # Create PostgreSQL database
-   createdb loans
-   
-   # Set environment variable
-   export DATABASE_URL="postgresql://username:password@localhost/loans"
-   ```
-
-3. **Install dependencies and build**
-   ```bash
-   cargo build --release
-   ```
-
-4. **Run the application**
-   ```bash
-   cargo run -- --help
-   ```
-
-## 📋 Database Schema
-
-The application works with the following loan record schema:
-
-```sql
-CREATE TABLE loans (
-    loan_id UUID PRIMARY KEY,
-    customer_name VARCHAR(255) NOT NULL,
-    property_address TEXT NOT NULL,
-    origination_date DATE NOT NULL,
-    maturity_date DATE NOT NULL,
-    loan_amount DECIMAL(15,2) NOT NULL,
-    remaining_balance DECIMAL(15,2) NOT NULL,
-    interest_rate DECIMAL(5,4) NOT NULL,
-    monthly_payment DECIMAL(10,2) NOT NULL,
-    status VARCHAR(50) NOT NULL,
-    product_name VARCHAR(100) NOT NULL,
-    product_type VARCHAR(50) NOT NULL,
-    security_name VARCHAR(100),
-    servicer_name VARCHAR(100) NOT NULL,
-    current_status VARCHAR(50) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Indexes for optimal performance
-CREATE INDEX idx_loans_status ON loans(status);
-CREATE INDEX idx_loans_product_type ON loans(product_type);
-CREATE INDEX idx_loans_servicer ON loans(servicer_name);
-CREATE INDEX idx_loans_amount ON loans(loan_amount);
-CREATE INDEX idx_loans_origination_date ON loans(origination_date);
-```
-
 ## 🎯 Usage Examples
 
 ### Search Loans with Filters
-
-```bash
-# Search by status and amount range
-cargo run -- search --status "Current" --min-amount 100000 --max-amount 500000
-
-# Search by product type
-cargo run -- search --product-type "Fixed Rate Mortgage"
-```
-
 ### Generate Portfolio Summary
-
-```bash
-# Get comprehensive portfolio analytics
-cargo run -- summary
-```
-
 ### Find Similar Loans
 
-```bash
-# Find loans similar to a specific loan ID
-cargo run -- similar --loan-id "550e8400-e29b-41d4-a716-446655440000" --limit 5
-```
-
 ## 🧠 AI Features
-
 ### Risk Scoring Algorithm
-
 The application uses a sophisticated risk scoring model that considers:
 
 - **Interest Rate Analysis**: Higher rates indicate increased risk
@@ -130,110 +48,19 @@ The application uses a sophisticated risk scoring model that considers:
 ## 📊 API Reference
 
 ### Core Structures
-
 #### LoanRecord
-```rust
-pub struct LoanRecord {
-    pub loan_id: Uuid,
-    pub customer_name: String,
-    pub property_address: String,
-    pub origination_date: NaiveDate,
-    pub maturity_date: NaiveDate,
-    pub loan_amount: f64,
-    pub remaining_balance: f64,
-    pub interest_rate: f64,
-    pub monthly_payment: f64,
-    pub status: String,
-    pub product_name: String,
-    pub product_type: String,
-    pub security_name: String,
-    pub servicer_name: String,
-    pub current_status: String,
-}
-```
-
 #### SearchFilters
-```rust
-pub struct SearchFilters {
-    pub status: Option<String>,
-    pub product_type: Option<String>,
-    pub servicer_name: Option<String>,
-    pub min_loan_amount: Option<f64>,
-    pub max_loan_amount: Option<f64>,
-    pub min_interest_rate: Option<f64>,
-    pub max_interest_rate: Option<f64>,
-    pub origination_date_from: Option<NaiveDate>,
-    pub origination_date_to: Option<NaiveDate>,
-}
-```
 
 ### Key Methods
-
 #### search_loans()
-```rust
-pub async fn search_loans(&self, filters: SearchFilters) -> Result<Vec<SearchResult>>
-```
-Search loans with advanced filtering and AI analytics.
-
 #### generate_portfolio_summary()
-```rust
-pub async fn generate_portfolio_summary(&self, filters: Option<SearchFilters>) -> Result<PortfolioSummary>
-```
-Generate comprehensive portfolio analytics and insights.
-
 #### find_similar_loans()
-```rust
-pub async fn find_similar_loans(&self, loan_id: Uuid, limit: usize) -> Result<Vec<SearchResult>>
-```
-Find loans with similar characteristics using AI clustering.
 
 ## 🔧 Configuration
-
 ### Environment Variables
-
-```bash
-# Database connection
-DATABASE_URL="postgresql://username:password@localhost:5432/loans"
-
-# Optional: Logging level
-RUST_LOG="info"
-
-# Optional: Application port (if running as web service)
-PORT=8080
-```
-
 ### Cargo.toml Dependencies
 
-```toml
-[dependencies]
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-tokio = { version = "1.0", features = ["full"] }
-sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "chrono", "uuid"] }
-uuid = { version = "1.0", features = ["v4", "serde"] }
-chrono = { version = "0.4", features = ["serde"] }
-anyhow = "1.0"
-clap = { version = "4.0", features = ["derive"] }
-linfa = "0.7"
-linfa-clustering = "0.7"
-ndarray = "0.15"
-```
-
 ## 🧪 Testing
-
-Run the test suite:
-
-```bash
-# Run all tests
-cargo test
-
-# Run with verbose output
-cargo test -- --nocapture
-
-# Run specific test
-cargo test test_analytics_calculation
-```
-
 ### Test Coverage
 
 The application includes comprehensive tests for:
@@ -247,21 +74,9 @@ The application includes comprehensive tests for:
 ## 📈 Performance
 
 ### Benchmarks
-
-- **Search Performance**: < 50ms for filtered queries on 1M+ records
-- **Risk Calculation**: < 1ms per loan record
-- **Memory Usage**: < 10MB for typical workloads
-- **Concurrent Users**: Supports 1000+ simultaneous connections
-
 ### Optimization Features
 
-- **Connection Pooling**: Efficient database connection management
-- **Query Optimization**: Indexed database queries for fast retrieval
-- **Memory Efficiency**: Zero-copy deserialization where possible
-- **Async Operations**: Non-blocking I/O for maximum throughput
-
 ## 🔮 Machine Learning Models
-
 ### Current Implementation
 
 The application currently includes:
@@ -282,65 +97,7 @@ Planned ML features include:
 ## 🚀 Deployment
 
 ### Docker Deployment
-
-```dockerfile
-FROM rust:1.70 as builder
-WORKDIR /app
-COPY . .
-RUN cargo build --release
-
-FROM ubuntu:22.04
-RUN apt-get update && apt-get install -y libpq5 ca-certificates
-COPY --from=builder /app/target/release/loan-ai /usr/local/bin/
-CMD ["loan-ai"]
-```
-
 ### Kubernetes Deployment
-
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: loan-ai-analyzer
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: loan-ai
-  template:
-    metadata:
-      labels:
-        app: loan-ai
-    spec:
-      containers:
-      - name: loan-ai
-        image: loan-ai:latest
-        ports:
-        - containerPort: 8080
-        env:
-        - name: DATABASE_URL
-          valueFrom:
-            secretKeyRef:
-              name: db-secret
-              key: url
-```
-
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes and add tests
-4. Run the test suite: `cargo test`
-5. Commit your changes: `git commit -m 'Add amazing feature'`
-6. Push to the branch: `git push origin feature/amazing-feature`
-7. Open a Pull Request
-
-### Code Style
-
-- Follow standard Rust formatting: `cargo fmt`
-- Ensure code passes linting: `cargo clippy`
-- Add documentation for public APIs
-- Include tests for new functionality
 
 
 ## 🙏 Acknowledgments
