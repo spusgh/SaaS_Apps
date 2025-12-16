@@ -47,58 +47,20 @@ The system processes loan records with the following structure:
 ### Prerequisites
 
 **For R Analytics:**
-```r
-# Required R packages
-install.packages(c("dplyr", "ggplot2", "lubridate", "knitr", 
-                   "DT", "plotly", "corrplot"))
-```
 
 **For Rust Search Engine:**
-```bash
-# Rust toolchain (install from https://rustup.rs/)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# Required dependencies in Cargo.toml
-[dependencies]
-serde = { version = "1.0", features = ["derive"] }
-chrono = { version = "0.4", features = ["serde"] }
-regex = "1.0"
-```
 
 ### Installation
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/loan-portfolio-system.git
-cd loan-portfolio-system
-```
 
 2. **Setup R Environment**
-```bash
-cd r-analytics
-Rscript install_dependencies.R
-```
 
 3. **Build Rust Application**
-```bash
-cd rust-search-engine
-cargo build --release
-```
 
 ## 💻 Usage
 
 ### R Analytics Report
-
-```r
-# Load the loan analysis script
-source("loan_analysis_report.R")
-
-# The script will automatically:
-# 1. Generate synthetic data (or load your data)
-# 2. Perform comprehensive analysis
-# 3. Create visualizations
-# 4. Export summary CSV files
-```
 
 **Output Files:**
 - `loan_status_summary.csv` - Status distribution analysis
@@ -107,93 +69,19 @@ source("loan_analysis_report.R")
 
 ### Rust Search Engine
 
-```rust
-use loan_search::{LoanSearchEngine, SearchQuery, SearchCriteria, AISearchInterface};
-
-// Initialize search engine
-let mut engine = LoanSearchEngine::new();
-engine.load_records(your_loan_data);
-
-// Structured search
-let query = SearchQuery {
-    criteria: vec![
-        SearchCriteria::Status("Current".to_string()),
-        SearchCriteria::AmountRange(300000.0, 500000.0)
-    ],
-    limit: Some(50),
-    sort_by: Some(SortField::LoanAmount),
-    sort_order: SortOrder::Descending,
-};
-
-let results = engine.search(&query);
-
-// AI-powered natural language search
-let ai_interface = AISearchInterface::new(engine);
-let results = ai_interface.search_with_ai("show me high-value current loans");
-```
-
 **Run the demo:**
-```bash
-cargo run
-```
 
 ## 🔍 Search Examples
-
 ### Natural Language Queries
-```rust
-// Status-based searches
-"show me all defaulted loans"
-"find current loans"
-"loans that are 30 days late"
-
-// Amount-based searches  
-"high value loans above 1 million"
-"loans between 250000 and 500000"
-
-// Customer searches
-"find customer John Smith"
-"loans for Alice Johnson"
-
-// Date-based searches
-"recent loans from 2023"
-"loans originated this year"
-```
-
 ### Structured Searches
-```rust
-// Multiple criteria
-SearchQuery {
-    criteria: vec![
-        SearchCriteria::ProductType("Jumbo".to_string()),
-        SearchCriteria::InterestRateRange(4.0, 6.0),
-        SearchCriteria::Status("Current".to_string())
-    ],
-    limit: Some(25),
-    sort_by: Some(SortField::RemainingBalance),
-    sort_order: SortOrder::Descending,
-}
-```
+
 
 ## 📈 Analytics Examples
-
 ### Key Metrics Generated
 
 **Portfolio Health:**
-- Total portfolio value: $1.2B
-- Average interest rate: 4.8%
-- Default rate: 2.1%
-- 90+ day delinquency: 1.3%
-
 **Risk Indicators:**
-- Geographic concentration analysis
-- Vintage performance curves  
-- Interest rate sensitivity analysis
-- Servicer performance benchmarks
-
 **Operational Metrics:**
-- Data quality scores
-- Processing time analytics
-- Search performance metrics
 
 ## 🏗️ Architecture
 
@@ -221,24 +109,9 @@ SearchQuery {
 ## 🧪 Testing
 
 ### R Tests
-```r
-# Run R unit tests
-source("tests/test_analytics.R")
-testthat::test_dir("tests/")
-```
-
 ### Rust Tests
-```bash
-# Run Rust unit and integration tests
-cargo test
-
-# Run with coverage
-cargo install cargo-tarpaulin
-cargo tarpaulin --out Html
-```
 
 ## 📊 Performance Benchmarks
-
 ### Search Engine Performance
 - **Index Build Time**: <2 seconds for 100K records
 - **Query Response Time**: <50ms for complex queries
@@ -272,8 +145,6 @@ cargo tarpaulin --out Html
 ---
 
 **Built with ❤️ for the financial services industry**
-
-*Last updated: July 27, 2025*
 
 
 ## ⚠️ Disclaimer
