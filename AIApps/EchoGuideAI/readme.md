@@ -13,7 +13,7 @@ EchoGuideAI is a real-time voice therapy application built on the Vibe platform,
 - ✅ Cost-optimized voice stack ($0.02-0.05 per session)
 
 ## Tech Stack
-- **Platform**: Vibe (voice app framework)
+- **Platform**: <a href="https://microsoft.github.io/VibeVoice/">Vibe (voice app framework)</a>
 - **Backend**: Node.js + Express
 - **Database**: PostgreSQL
 - **STT**: Deepgram Nova-2 (primary), Faster-Whisper (fallback)
