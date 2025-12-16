@@ -18,6 +18,7 @@
 <li><a href="https://github.com/spusgh/Architecture/tree/main/CustomerLoanAIPlatform">AIaaS : Architecture : AI Solution Architecture : Customer Loan AI Platform</a><br/>
 <li><a href="https://github.com/spusgh/Architecture/blob/main/Integration/msteams_integration_readme.md">AIaaS : Architecture : Integration Architecture : Microsoft Teams integration for meeting recording, transcription, and PII profile creation</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">AIaaS : Customer Support Bot MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/EchoGuideAIL">AIaaS : LLM - VibeVoice : EchoGuideAI - Relationship Voice Therapy App</a> <br/>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinancialQEModelingPA">AIaaS : Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
  <li><a href="https://github.com/spusgh/PaaS-Scripts/tree/main/GenAIRAGMVP">AIaaS : GenAI RAG MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">AIaaS : LLM : Claude Sonnet : Investment App</a><br/>
