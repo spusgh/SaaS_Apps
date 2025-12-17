@@ -4,7 +4,7 @@ This directory contains modular AI-native applications designed for intelligent 
 
 ---
 ## MVP Apps
- <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDocumentIntelligencePlatformMVP">AIaaS : AI-Driven Document Intelligence Platform MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDocumentIntelligencePlatformMVP">AIaaS : AI-Driven Document Intelligence Platform MVP</a></li>
 <li><a href="https://github.com/spusgh/Architecture/tree/main/CustomerLoanAIPlatform">AIaaS : Architecture : AI Solution Architecture : Customer Loan AI Platform</a><br/>
 <li><a href="https://github.com/spusgh/Architecture/blob/main/Integration/msteams_integration_readme.md">AIaaS : Architecture : Integration Architecture : Microsoft Teams integration for meeting recording, transcription, and PII profile creation</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">AIaaS : Customer Support Bot MVP</a></li>
@@ -16,6 +16,7 @@ This directory contains modular AI-native applications designed for intelligent 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">AIaaS : LLM : LangChain : SecureFlowAI - Security Records Management</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">AIaaS : LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/EchoGuideAIL">AIaaS : LLM : VibeVoice : EchoGuideAI - Relationship Voice Therapy App</a> <br/>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDatasetIntelligencePlatformMVP">AIaaS : ML : AI-Driven ML Dataset Intelligence Platform MVP</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">AIaaS : ML : Python Scikit-Learn Rust - Loan Record Analysis</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/MLRustLoanDataApp">AIaaS : ML : Rust - Loan Data</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li> 
