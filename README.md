@@ -23,6 +23,7 @@
  <li><a href="https://github.com/spusgh/PaaS-Scripts/tree/main/GenAIRAGMVP">AIaaS : GenAI RAG MVP</a></li>
   <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/HealthConnect">AIaaS : HealthConnect - Patient Portal Integration MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">AIaaS : LLM : Claude Sonnet : Investment App</a><br/>
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinConverseLLM">AIaaS : LLM : FinConverse LLM MVP</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecuritiesAI">AIaaS : LLM : LangChain : SecuritiesAI - Managing Securities Records</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">AIaaS : LLM : LangChain : SecureFlowAI - Security Records Management</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">AIaaS : LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
