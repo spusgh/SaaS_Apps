@@ -1,4 +1,4 @@
-# FinLite AI 🤖💰
+# FinLite AI SLM MVP - customer Support 🤖💰
 
 > **Small Language Model intelligence for fast, efficient financial conversations**
 
@@ -6,17 +6,6 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9+-yellow.svg)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-production--ready-success.svg)](https://github.com/yourorg/finlite-ai)
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Key Features](#key-features)
-- [MVP Scope](#mvp-scope)
-- [Quick Start](#quick-start)
-- [System Requirements](#system-requirements)
-- [Deployment](#deployment)
-- [Performance Metrics](#performance-metrics)
 
 ---
 
@@ -26,7 +15,7 @@
 
 ### The Problem
 
-Financial institutions spend **$137,500/month** on customer support, with 60-70% of calls being routine inquiries:
+Financial institutions spend **$$$,$00/month** on customer support, with 60-70% of calls being routine inquiries:
 - "What's my loan balance?"
 - "When is my next payment due?"
 - "Why was my application denied?"
