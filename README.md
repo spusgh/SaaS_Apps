@@ -31,6 +31,7 @@
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDatasetIntelligencePlatformMVP">AIaaS : ML : AI-Driven ML Dataset Intelligence Platform MVP</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">AIaaS : ML : Python Scikit-Learn Rust - Loan Record Analysis</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/MLRustLoanDataApp">AIaaS : ML : Rust - Loan Data</br/>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinLiteAI">AIaaS : SLM : FinLite AI MVP Customer Support</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li>
 
 ### LangChain Apps
