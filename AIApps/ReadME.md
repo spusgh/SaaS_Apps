@@ -28,8 +28,32 @@ This directory contains modular AI-native applications designed for intelligent 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/OptiLendAI">AIaaS : RL : OptiLend RL MVP</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinLiteAI">AIaaS : SLM : FinLite AI MVP Customer Support</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li> 
+<br/>
+<br/>
+<br/>
 
- 
+
+
+
+| App | ML | NLP | LLM | PLM | RAG | RL | Document AI | Agentic AI | Predictive |
+|-----|----|-----|-----|------|------|-----|--------------|--------------|-------------|
+| AIDrivenDatasetIntelligencePlatform | ✔ | – | – | – | – | – | – | – | ✔ |
+| AIDrivenDocumentIntelligencePlatform | ✔ | ✔ | ✔ | – | ✔ | – | ✔ | – | – |
+| CustomerSupportBot | – | ✔ | ✔ | – | ✔ | – | – | ✔ | – |
+| DeepRiskAI | ✔ | – | – | – | – | – | – | – | ✔ |
+| EchoGuideAI | – | ✔ | ✔ | – | – | – | – | ✔ | – |
+| FinConverseLLM | – | ✔ | ✔ | – | ✔ | – | – | – | – |
+| FinLiteAI | – | ✔ | ✔ (SLM) | – | – | – | – | – | – |
+| FinMLEngine | ✔ | – | – | – | – | – | – | – | ✔ |
+| FinTuneAI | – | ✔ | ✔ | ✔ | – | – | – | – | – |
+| FinancialQEModelingPA | ✔ | – | – | – | – | – | – | – | ✔ |
+| HealthConnect | – | ✔ | – | – | – | – | ✔ | – | – |
+| LexiFinAI | ✔ | ✔ | ✔ | – | – | – | – | – | ✔ |
+| OptiLendAI | ✔ | – | – | – | – | ✔ | – | – | ✔ |
+| PropIntelAI | – | ✔ | ✔ | – | ✔ | – | – | – | – |
+| TrailBlazerAIMVP | – | – | ✔ | – | – | – | – | ✔ | – |
+
+
 
 ## 🧠 Capabilities
 
