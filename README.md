@@ -14,14 +14,12 @@
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/FinTech_.NETAspire">.NET Aspire App - Aspire Mortgage</a></li>
 
  ### <a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps">🤖 AIaaS (AI-as-a-Service)</a>
-  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDocumentIntelligencePlatformMVP">AIaaS : AI-Driven Document Intelligence Platform MVP</a></li>
 <li><a href="https://github.com/spusgh/Architecture/tree/main/CustomerLoanAIPlatform">AIaaS : Architecture : AI Solution Architecture : Customer Loan AI Platform</a><br/>
 <li><a href="https://github.com/spusgh/Architecture/blob/main/Integration/msteams_integration_readme.md">AIaaS : Architecture : Integration Architecture : Microsoft Teams integration for meeting recording, transcription, and PII profile creation</a></li>
-<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">AIaaS : Customer Support Bot MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDocumentIntelligencePlatformMVP">AIaaS : AI: Document Intelligence Platform MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/CustomerSupportBotMVP">AIaaS : AI : Customer Support Bot MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/VisionLedgerAI">AIaaS : Computer Vision intelligence : VisionLedger AI MVP</a><br/>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/DeepRiskAI">AIaaS : DL : DeepRisk AI - Deep Learning MVP for Financial Services</a></li>
- <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinancialQEModelingPA">AIaaS : Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
- <li><a href="https://github.com/spusgh/PaaS-Scripts/tree/main/GenAIRAGMVP">AIaaS : GenAI RAG MVP</a></li>
-  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/HealthConnect">AIaaS : HealthConnect - Patient Portal Integration MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/Claude%20Sonnet">AIaaS : LLM : Claude Sonnet : Investment App</a><br/>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinConverseLLM">AIaaS : LLM : FinConverse LLM MVP</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecuritiesAI">AIaaS : LLM : LangChain : SecuritiesAI - Managing Securities Records</a> <br/>
@@ -29,15 +27,18 @@
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">AIaaS : LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/EchoGuideAIL">AIaaS : LLM : VibeVoice : EchoGuideAI - Relationship Voice Therapy App</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDatasetIntelligencePlatformMVP">AIaaS : ML : AI-Driven ML Dataset Intelligence Platform MVP</a></li>
+ <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/DeepRiskAI">AIaaS : ML : Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinMLEngine">AIaaS : ML : FinML Engine: Loan Default Prediction ML MVP</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AgenticCoding/MLPythonScikit-LearnRustLoanRecordAnalysis">AIaaS : ML : Python Scikit-Learn Rust - Loan Record Analysis</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/VibeCoding/MLRustLoanDataApp">AIaaS : ML : Rust - Loan Data</br/>
+  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/HealthConnect">AIaaS : NLP : HealthConnect - Patient Portal Integration MVP</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/LexiFinAI">AIaaS : NLP : LexiFin AI MVP- Intelligent Loan Denial Classification Platform</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinTuneAI">AIaaS : PLM : FinTune AI - PLM MVP for Financial Services</br/>
+ <li><a href="https://github.com/spusgh/PaaS-Scripts/tree/main/GenAIRAGMVP">AIaaS : RAG : GenAI RAG MVP</a></li>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/PropIntelAI">AIaaS : RAG : PropIntel AI -RAG - Real Estate Chatbot MVP</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/OptiLendAI">AIaaS : RL : OptiLend RL MVP</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinLiteAI">AIaaS : SLM : FinLite AI MVP Customer Support</br/>
-<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li>
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li> 
 
 ### LangChain Apps
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
