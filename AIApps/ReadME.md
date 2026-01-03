@@ -15,6 +15,7 @@ This directory contains modular AI-native applications designed for intelligent 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecuritiesAI">AIaaS : LLM : LangChain : SecuritiesAI - Managing Securities Records</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LangChainApps/SecureFlowAI">AIaaS : LLM : LangChain : SecureFlowAI - Security Records Management</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/LLM/LLM2MSSQL">AIaaS : LLM : LLM MS SQL Integration - TinyLlama + MS SQL Integration</a> <br/>      
+<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : LLM : TrailBlazer AI MVP</a></li> 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/EchoGuideAIL">AIaaS : LLM : VibeVoice : EchoGuideAI - Relationship Voice Therapy App</a> <br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/AIDrivenDatasetIntelligencePlatformMVP">AIaaS : ML : AI-Driven ML Dataset Intelligence Platform MVP</a></li>
  <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/DeepRiskAI">AIaaS : ML : Financial Quantitative Engineering - Modeling & Analytics MVP — XYZ Financials</a></li>
@@ -28,7 +29,6 @@ This directory contains modular AI-native applications designed for intelligent 
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/PropIntelAI">AIaaS : RAG : PropIntel AI -RAG - Real Estate Chatbot MVP</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/OptiLendAI">AIaaS : RL : OptiLend RL MVP</br/>
 <li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/FinLiteAI">AIaaS : SLM : FinLite AI MVP Customer Support</br/>
-<li><a href="https://github.com/spusgh/SaaS_Apps/tree/main/AIApps/TrailBlazerAIMVP">AIaaS : TrailBlazer AI MVP</a></li> 
 <br/>
 <br/>
 <br/>
